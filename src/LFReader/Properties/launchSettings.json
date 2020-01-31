@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LFReader": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\Desktop\\QuickDev\\Tools\\OpenHardwareMonitor\\OpenHardwareMonitorLog-2019-05-31.csv\" \"D:\\Desktop\\demo\" --lines 50 --offset 1"
+    }
+  }
+}

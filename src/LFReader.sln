@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2848700-C8F6-419E-9D2A-FF3590CA7AFB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\build.cake = ..\build.cake
+		..\build.ps1 = ..\build.ps1
+		..\build.sh = ..\build.sh
+		..\CHANGELOG.md = ..\CHANGELOG.md
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LFReader", "LFReader\LFReader.csproj", "{07A89A2C-393E-48D1-BBE5-0BC45D9D762B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A89A2C-393E-48D1-BBE5-0BC45D9D762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A89A2C-393E-48D1-BBE5-0BC45D9D762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A89A2C-393E-48D1-BBE5-0BC45D9D762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A89A2C-393E-48D1-BBE5-0BC45D9D762B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37087f8b-c84a-4ad7-b69a-feaaba0804aa}
+	EndGlobalSection
+EndGlobal
